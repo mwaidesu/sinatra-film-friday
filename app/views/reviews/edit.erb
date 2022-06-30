@@ -1,6 +1,6 @@
 <div class="login>
  
-<form class="form" action="/reviews/<%=@review.id%>" method="POST">
+<form class="form" action='/reviews/<%=@review.id%>' method="POST">
 <h3>Edit the Comment</h3>
 <input id="hidden" type="hidden" name="_method" value="patch">
 
@@ -11,8 +11,10 @@
 <textarea id="review_content"  name="review_content" value="<%= @review.review_content %>" rows="5" cols="50"><%= @review.review_content %> </textarea>
 
 
-<div><label>Rating: </label></div>
-<input type="text" name="star_rating" id="star_rating" value="<%= @review.star_rating %>" >
+<div class="form-group">
+  <label for="star_rating">Rating:</label>
+  <input type="text" name="star_rating" class="form-control" id="star_rating"  placeholder="Enter rating" value="<%= @review.star_rating %>">
+</div>
     
 <br>
 <br>
