@@ -1,4 +1,5 @@
 require './config/environment'
+run Sinatra::Application
 
 #if ActiveRecord::Migrator.needs_migration?
 if ActiveRecord::Base.connection.migration_context.needs_migration?
