@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+ruby '2.7.4'
 
 gem 'activerecord', require: 'active_record'
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', require: 'bcrypt'
@@ -9,6 +10,7 @@ gem 'sinatra'
 gem 'sinatra-activerecord', require: 'sinatra/activerecord'
 gem 'thin'
 gem 'puma'
+gem 'pg'
 
 gem 'rack-flash3'
 gem 'tux'
