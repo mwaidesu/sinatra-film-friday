@@ -2,10 +2,10 @@
 <%= flash[:error] %>
 <% end %>
 
+<div class="login">
+
+<form class="form" action="/reviews/new" method="POST">
 <h3>Create a Review for <%= @new_movie.title %></h3>
-
-
-<form action="/reviews/new" method="POST">
 
 <input type="hidden" name="movie_id" value="<%= @new_movie.id %>"> 
 
@@ -23,13 +23,12 @@
   <div class="container">
     <div class="row">
       <div class="col text-center">
-        <button type="submit" class="btn btn-dark btn-lg">Submit</button></a>
+        <button type="submit" class="btn btn-success login-btn btn-lg">Submit</button></a>
       </div>
     </div>
   </div>
 
   </form>
-
- 
+  <div>
 
  
