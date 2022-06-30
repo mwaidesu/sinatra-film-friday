@@ -22,5 +22,5 @@ group :test do
 
   gem 'pry'
   # comment out sqlite gem if using postgresql for test and development database
-  # gem 'sqlite3', '~> 1.4'
+  gem 'sqlite3', '~> 1.4'
 end
