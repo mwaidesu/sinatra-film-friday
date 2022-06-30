@@ -2,7 +2,11 @@
   <%= flash[:login_error] %>
 <% end %>
 
-<form method="POST" action="/login">
+<div class="login">
+<h3>Login</h3>
+<form class="form"  method="POST" action="/login">
+
+ 
  
   <div class="form-group">
   <label for="username">Username</label>
@@ -16,14 +20,16 @@
 </div>
 
   <div class="container">
-    <div class="row">
+    <div class="row ">
       <div class="col text-center">
-        <button type="submit" class="btn btn-dark btn-lg"><i class="fas fa-sign-in-alt"></i> Log In</button></a>
+        <button type="submit" class="btn btn-success btn-lg login-btn"><i class="fas fa-sign-in-alt"></i> Log In</button>
+
       </div>
     </div>
   </div>
 
 
 </form>
+</div>
 
 
