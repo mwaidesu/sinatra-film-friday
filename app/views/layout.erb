@@ -56,11 +56,15 @@
            <% @user = current_user(session) %>
 
            <li class="nav-item">
+           <a class="nav-link" href="/movies/search">Search</a>
+          </li> 
+
+           <li class="nav-item">
            <a class="nav-link" href="/reviews">Comments</a>
           </li>   
 
             <li class="nav-item">
-              <a class="nav-link" href="/users/<%= @user.slug %>">My Account</a>
+              <a class="nav-link" href="/users/<%= @user.slug %>">Account</a>
             </li>    
 
             <li class="nav-item">
