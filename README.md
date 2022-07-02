@@ -1,4 +1,4 @@
-# Sinatra Film Fridays
+# Sinatra Film Friday
 
 A web application that allows a user to create an account, search for a movie using the title, get back movies with similar titles and leave a review on a movie of their choice.
 
