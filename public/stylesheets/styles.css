@@ -1,109 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inknut+Antiqua:wght@300&family=Raleway:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inknut+Antiqua:wght@300&family=Raleway:wght@500&display=swap");
 
 .welcome {
-    font-family: 'Inknut Antiqua', serif;
-    text-align: center;
-    color: white;
+  font-family: "Inknut Antiqua", serif;
+  text-align: center;
+  color: white;
 }
 
 .message {
-    color: red;
+  color: red;
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
-
- .movie-column .card-header,
- .critics-column .card-header,
- .account-info .card-header,
- .my-reviews-column .card-header,
- .others-reviews-column .card-header,
- .most-reviewed-column .card-header {
-    background-color: #0C4271;
-    color:white;
-    text-align: center;
- }
-
- .movie-column .card-body,
- .critics-column .card-body,
- .account-info .card-body,
- .my-reviews-column .card-body,
- .others-reviews-column .card-body,
- .most-reviewed-column .card-body,
- .movie-column .card-img-top {
-    background-color: white;
-    color: black;
-    border-radius: 0px;
- }
-
-
- img {
-    max-width: 50%;
-    height: auto;
+.movie-column .card-header,
+.critics-column .card-header,
+.account-info .card-header,
+.my-reviews-column .card-header,
+.others-reviews-column .card-header,
+.most-reviewed-column .card-header {
+  background-color: #0c4271;
+  color: white;
+  text-align: center;
 }
 
-.image{
-    width: 150px;
-    height: auto;
+.movie-column .card-body,
+.critics-column .card-body,
+.account-info .card-body,
+.my-reviews-column .card-body,
+.others-reviews-column .card-body,
+.most-reviewed-column .card-body,
+.movie-column .card-img-top {
+  background-color: white;
+  color: black;
+  border-radius: 0px;
 }
 
-.image:hover{
-    transform: scale(1.1);
+img {
+  max-width: 50%;
+  height: auto;
 }
 
+.image {
+  width: 150px;
+  height: auto;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white ;
+  color: white;
 }
 
-nav{
-    background-color: #0C4271;
+nav {
+  background-color: #0c4271;
 }
 .account-info {
-    margin: 0 auto; 
-    float: none;  
-    margin-bottom: 10px;  
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
-
- 
-
 
 .container {
-    padding: 5% 1%;
-
+  padding: 5% 1%;
 }
 .social-icon {
-    margin: 20px 10px;
-    color: #381D0A;
-  }
- 
+  margin: 20px 10px;
+  color: #381d0a;
+}
 
 .btn {
-    margin: 5% 3% 5% 0;
-    background-color: #0C4271;
+  margin: 5% 3% 5% 0;
+  background-color: #0c4271;
 }
 
 .login {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .form {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    width: 70%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 70%;
 }
 
-.form input, .login-btn{
-    height: 4rem;
-    border-radius: 0px;
+.form input,
+.login-btn {
+  height: 4rem;
+  border-radius: 0px;
 }
-.login-btn{
-    width: 100%;
+.login-btn {
+  width: 100%;
 }
-
-
