@@ -10,10 +10,17 @@ gem 'sinatra'
 gem 'sinatra-activerecord', require: 'sinatra/activerecord'
 gem 'thin'
 gem 'puma'
-gem 'pg'
 
 gem 'rack-flash3'
-gem 'tux'
+
+group :development do
+ gem 'sqlite3'
+ gem "tux"
+end
+
+group :production do
+ gem 'pg'
+end
 
 group :test do
   gem 'capybara'
@@ -24,5 +31,5 @@ group :test do
 
   gem 'pry'
   # comment out sqlite gem if using postgresql for test and development database
-  gem 'sqlite3', '~> 1.4'
+  # gem 'sqlite3', '~> 1.4'
 end
